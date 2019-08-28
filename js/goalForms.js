@@ -32,12 +32,12 @@ function createGoalForm(numberGoals) {
                       <select name="peso${i+1}" id="peso${i+1}" class="form-control" required></select>
                     </div>
                     <div class="form-group col-6">
-                      <label for="prior-estrat">Prioridade Estratégica <span class="required-field">*</span></label>
-                      <select name="prior-estrat" id="prior-estrat" class="form-control" required></select>
+                      <label for="prior-estrat${i+1}">Prioridade Estratégica <span class="required-field">*</span></label>
+                      <select name="prior-estrat${i+1}" id="prior-estrat${i+1}" class="form-control" required></select>
                     </div>
                     <div class="form-group col-2">
-                      <label for="prazo">Prazo <span class="required-field">*</span></label>
-                      <select name="prazo" id="prazo" class="form-control" required></select>
+                      <label for="prazo${i+1}">Prazo <span class="required-field">*</span></label>
+                      <select name="prazo${i+1}" id="prazo${i+1}" class="form-control" required></select>
                     </div>
 
                     <div class="form-group col-12">
@@ -98,12 +98,12 @@ function createGoalForm(numberGoals) {
                     <select name="peso${i+1}" id="peso${i+1}" class="form-control" ></select>
                   </div>
                   <div class="form-group col-6">
-                    <label for="prior-estrat">Prioridade Estratégica</label>
-                    <select name="prior-estrat" id="prior-estrat" class="form-control" ></select>
+                    <label for="prior-estrat${i+1}">Prioridade Estratégica</label>
+                    <select name="prior-estrat${i+1}" id="prior-estrat${i+1}" class="form-control" ></select>
                   </div>
                   <div class="form-group col-2">
-                    <label for="prazo">Prazo</label>
-                    <select name="prazo" id="prazo" class="form-control" ></select>
+                    <label for="prazo${i+1}">Prazo</label>
+                    <select name="prazo${i+1}" id="prazo${i+1}" class="form-control" ></select>
                   </div>
 
                   <div class="form-group col-12">

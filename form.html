@@ -30,7 +30,7 @@
   </nav>
   <!-- END NAVBAR -->
 
-  <form class="container mt-5 mb-5">
+  <form class="container mt-5 mb-5" onsubmit="calculaPeso(); return false;">
     
     <h1 class="main-title">Especificar Metas</h1>
     
@@ -102,14 +102,15 @@
 
     <div class="peso-total mt-4 col-5 p-0 float-right">
       <label for="peso-total">Peso Total (%) <span class="required-field">*</span></label>
-      <input type="text" class="form-control" name="peso-total">
+      <input type="text" class="form-control" name="peso-total" id="peso-total">
+      <div class="erro-peso"></div>
     </div>
     
     <div class="clearfix"></div>
 
     <div class="col-12 mt-4 p-0 text-right">
       <button type="button" class="btn mr-3">Salvar Rascunho</button>
-      <button type="submit" class="btn mr-3">Salvar e Enviar</button>
+      <button type="submit" class="btn mr-3 button-enviar">Salvar e Enviar</button>
       <button type="button" class="btn">Fechar</button>
     </div>
 
@@ -121,6 +122,6 @@
 
   <script src="js/goalForms.js"></script>
   <script src="js/selectOptions.js"></script>
-  <script src="js/calcPeso.js"></script>
+  <script src="js/calcPesoTotal.js"></script>
 </body>
 </html>
