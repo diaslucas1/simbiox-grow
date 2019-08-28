@@ -6,6 +6,9 @@
 }
 /*  */
 
+
+
+
 .nav-item a {
   color: #005949;
   font-family: 'Verdana Bold', Verdana;
@@ -17,4 +20,38 @@
   border-bottom: 7px #005949 solid;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+.main-title {
+  color: #006892;
+  font-family: 'Arial Bold', Arial;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.required-field {
+  color: #ff0000;
+}
+
+.dados-pessoais h3 {
+  color: #006892;
+  font-family: 'Arial Regular', Arial;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  border-bottom: 2px #006892 solid;
+}
+
+.dados-pessoais label {
+  color: #006892;
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dados-pessoais .form-control, .dados-pessoais .form-control::placeholder {
+  color: #000000;
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
