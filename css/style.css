@@ -34,8 +34,12 @@
   background-color: #F2F2F2;
 }
 
-.nav-tabs .active {
+.nav-tabs .active, .tab-content {
   background-color: #DAEED9 !important;
+}
+
+.nav-tabs li .disabled {
+  color: #cccccc !important;
 }
 
 
@@ -64,20 +68,45 @@
   border-bottom:1px#48A842 solid; /* arrumar no sass depois */
 }
 
-.dados-pessoais label {
+.dados-pessoais label, .metas label, .peso-total label {
   color: #006892;
   font-family: 'Verdana Regular', Verdana, serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-.dados-pessoais .form-control, .dados-pessoais .form-control::placeholder {
+.metas label {
+  color: #000000;
+}
+
+.peso-total label {
+  color: #006892;
+}
+
+.dados-pessoais .form-control, .dados-pessoais .form-control::placeholder, .metas .form-control, .metas .form-control::placeholder, .peso-total .form-control, .peso-total .form-control::placeholder {
   color: #000000;
   font-family: 'Verdana Regular', Verdana, serif;
   font-size: 14px;
   font-weight: 400;
   height: 40px; 
   border-color: #006892;
+}
+
+.metas .form-control, .metas .form-control::placeholder {
+  border-color: #48A842;
+}
+
+.metas textarea {
+  border-color: #48A842;
+}
+
+.peso-total {
+  border-color: #006892;
+}
+
+.position-required span {
+  position: absolute;
+  left: 5px;
 }
 
 .text-smart {
@@ -87,4 +116,13 @@
   font-weight: 400;
 }
 
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #005949;
+  color: #ffffff;
+  font-family: 'Arial Bold', Arial;
+  font-size: 14px;
+  font-weight: 700;
+}
 

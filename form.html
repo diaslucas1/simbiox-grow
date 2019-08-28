@@ -16,7 +16,7 @@
   <nav class="navbar navbar-expand-md">
     <div class="container">
 
-      <a href="index.html" class="navbar-brand logo ml-4">
+      <a href="index.html" class="navbar-brand logo">
         <img src="#" alt="Grow Logo">
       </a>
 
@@ -30,98 +30,149 @@
   </nav>
   <!-- END NAVBAR -->
 
-  <section class="container mt-5">
-    <div class="ml-4">
-      <h1 class="main-title">Especificar Metas</h1>
-      
-      <div class="dados-pessoais mt-5">
-        <h3 class="col-12">Dados Pessoais</h3>
-        <form action="#">
-          <div class="row m-0">
-            <div class="form-group col-6">
-              <label for="nome-colab">Nome do Colaborador <span class="required-field">*</span></label>
-              <input type="text" class="form-control" name="nome-colab" placeholder="Será preenchido automaticamente com o usuário logado" readonly>
-            </div>
-            <div class="form-group col-6">
-              <label for="nome-gestor">Nome do Gestor <span class="required-field">*</span></label>
-              <input type="text" class="form-control" name="nome-gestor" placeholder="Buscará o Gestor do cadastro de colaboradores" readonly>
-            </div>
-
-            <div class="form-group col-6">
-              <label for="nome-colab">E-mail do Colaborador <span class="required-field">*</span></label>
-              <input type="text" class="form-control" name="email-colab" placeholder="Será preenchido automaticamente com o usuário logado" readonly>
-            </div>
-            <div class="form-group col-6">
-              <label for="nome-gestor">E-mail do Gestor <span class="required-field">*</span></label>
-              <input type="text" class="form-control" name="email-gestor" placeholder="Buscará o Gestor do cadastro de colaboradores" readonly>
-            </div>
-
-            <div class="form-group col-6">
-              <label for="matricula">Matrícula <span class="required-field">*</span></label>
-              <input type="text" class="form-control" name="matricula" placeholder="Digite a matrícula" required>
-            </div>
-            <div class="form-group col-6">
-              <label for="diretoria">Diretoria <span class="required-field">*</span></label>
-              <select name="diretoria" id="diretoria" class="form-control">
-              </select>
-            </div>
-
-            <div class="form-group col-2">
-              <label for="data-criacao">Data Criação <span class="required-field">*</span></label>
-              <input type="date" class="form-control" name="data-criacao" placeholder="dd/mm/aaaa" required>
-            </div>
-            <div class="form-group col-2">
-              <label for="data-feedback">Data Feedback <span class="required-field">*</span></label>
-              <input type="date" class="form-control" name="data-feedback" placeholder="dd/mm/aaaa" readonly>
-            </div>
-            <div class="form-group col-2">
-              <label for="ano">Ano <span class="required-field">*</span></label>
-              <input type="number" class="form-control" name="ano" placeholder="2019" readonly>
-            </div>
-            <div class="form-group col-2">
-              <label for="data-autoavaliacao">Data Auto Avaliação</label>
-              <input type="date" class="form-control" name="data-autoavaliacao" placeholder="dd/mm/aaaa" readonly>
-            </div>
-            <div class="form-group col-2">
-              <label for="data-avaliagest">Data Avaliação Gestor</label>
-              <input type="date" class="form-control" name="data-avaliagest" placeholder="dd/mm/aaaa" readonly>
-            </div>
-            <div class="form-group col-2">
-              <label for="data-consistência">Data Consistência</label>
-              <input type="date" class="form-control" name="data-consistência" placeholder="dd/mm/aaaa" readonly>
-            </div>
+  <form class="container mt-5 mb-5">
+    
+    <h1 class="main-title">Especificar Metas</h1>
+    
+    <!-- FORM DADOS PESSOAIS -->
+    <div class="dados-pessoais mt-5">
+      <h3 class="col-12">Dados Pessoais</h3>
+      <!-- <form action="#"> -->
+        <div class="row m-0">
+          <div class="form-group col-6">
+            <label for="nome-colab">Nome do Colaborador <span class="required-field">*</span></label>
+            <input type="text" class="form-control" name="nome-colab" placeholder="Será preenchido automaticamente com o usuário logado" readonly>
           </div>
-        </form>
-      </div>
+          <div class="form-group col-6">
+            <label for="nome-gestor">Nome do Gestor <span class="required-field">*</span></label>
+            <input type="text" class="form-control" name="nome-gestor" placeholder="Buscará o Gestor do cadastro de colaboradores" readonly>
+          </div>
 
-      <p class="text-center text-smart mt-4">SMART: Todas as metas devem ser Específicas, Mensuráveis, Possíveis de Alcançar, Relevantes e Ter Prazo<br>Estabeleça de 3 a 5 metas para o ano. A soma dos pesos deve ser igual a 100%</p>
+          <div class="form-group col-6">
+            <label for="email-colab">E-mail do Colaborador <span class="required-field">*</span></label>
+            <input type="text" class="form-control" name="email-colab" placeholder="Será preenchido automaticamente com o usuário logado" readonly>
+          </div>
+          <div class="form-group col-6">
+            <label for="email-gestor">E-mail do Gestor <span class="required-field">*</span></label>
+            <input type="text" class="form-control" name="email-gestor" placeholder="Buscará o Gestor do cadastro de colaboradores" readonly>
+          </div>
 
-      <div class="metas mt-4">
-        <h3 class="col-12">Meta 1 <span class="required-field">*</span></h3>
-      
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link active" id="meta-tab" data-toggle="tab" href="#meta" aria-controls="meta" aria-selected="true">Meta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="autoavalia-tab" data-toggle="tab" href="#autoavalia" aria-controls="autoavalia" aria-selected="false">Auto Avaliação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="avaliagest-tab" data-toggle="tab" href="#avaliagest" aria-controls="avaliagest" aria-selected="false">Avaliação Gestor</a>
-          </li>
-        </ul>
-        <div class="tab-content">
-          <div class="tab-pane fade show active" id="meta" aria-labelledby="meta-tab">...</div>
-          <div class="tab-pane fade" id="autoavalia" aria-labelledby="autoavalia-tab">Teste</div>
-          <div class="tab-pane fade" id="avaliagest" aria-labelledby="avaliagest-tab">...</div>
+          <div class="form-group col-6">
+            <label for="matricula">Matrícula <span class="required-field">*</span></label>
+            <input type="text" class="form-control" name="matricula" placeholder="Digite a matrícula" required>
+          </div>
+          <div class="form-group col-6">
+            <label for="diretoria">Diretoria <span class="required-field">*</span></label>
+            <select name="diretoria" id="diretoria" class="form-control"></select>
+          </div>
+
+          <div class="form-group col-2">
+            <label for="data-criacao">Data Criação <span class="required-field">*</span></label>
+            <input type="date" class="form-control" name="data-criacao" placeholder="dd/mm/aaaa" required>
+          </div>
+          <div class="form-group col-2">
+            <label for="data-feedback">Data Feedback <span class="required-field">*</span></label>
+            <input type="date" class="form-control" name="data-feedback" placeholder="dd/mm/aaaa" readonly>
+          </div>
+          <div class="form-group col-2">
+            <label for="ano">Ano <span class="required-field">*</span></label>
+            <input type="number" class="form-control" name="ano" placeholder="2019" readonly>
+          </div>
+          <div class="form-group col-2">
+            <label for="data-autoavaliacao">Data Auto Avaliação</label>
+            <input type="date" class="form-control" name="data-autoavaliacao" placeholder="dd/mm/aaaa" readonly>
+          </div>
+          <div class="form-group col-2">
+            <label for="data-avaliagest">Data Avaliação Gestor</label>
+            <input type="date" class="form-control" name="data-avaliagest" placeholder="dd/mm/aaaa" readonly>
+          </div>
+          <div class="form-group col-2">
+            <label for="data-consistência">Data Consistência</label>
+            <input type="date" class="form-control" name="data-consistência" placeholder="dd/mm/aaaa" readonly>
+          </div>
         </div>
-        
-        
-      </div>
+      <!-- </form> -->
+    </div>
+    <!-- END FORM DADOS PESSOAIS -->
 
+    <p class="text-center text-smart mt-4">SMART: Todas as metas devem ser Específicas, Mensuráveis, Possíveis de Alcançar, Relevantes e Ter Prazo<br>Estabeleça de 3 a 5 metas para o ano. A soma dos pesos deve ser igual a 100%</p>
+
+    <!-- FORMS METAS -->
+    <div class="metas mt-4">
+      <h3 class="col-12">Meta 1 <span class="required-field">*</span></h3>
+    
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" id="meta-tab" data-toggle="tab" href="#meta" aria-controls="meta" aria-selected="true">Meta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" id="autoavalia-tab" data-toggle="tab" href="#autoavalia" aria-controls="autoavalia" aria-selected="false">Auto Avaliação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" id="avaliagest-tab" data-toggle="tab" href="#avaliagest" aria-controls="avaliagest" aria-selected="false">Avaliação Gestor</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="meta" aria-labelledby="meta-tab">
+            <!-- <form action="#"> -->
+              <div class="row m-0 pt-1">
+                <div class="form-group col-12">
+                  <label for="titulo-meta">Título da Meta <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" name="titulo-meta" placeholder="Digite o título da Meta" required>
+                </div>
+
+                <div class="form-group col-1">
+                  <label for="peso">Peso (%) <span class="required-field">*</span></label>
+                  <select name="peso" id="peso" class="form-control" required></select>
+                </div>
+                <div class="form-group col-6">
+                  <label for="prior-estrat">Prioridade Estratégica <span class="required-field">*</span></label>
+                  <select name="prior-estrat" id="prior-estrat" class="form-control" required></select>
+                </div>
+                <div class="form-group col-2">
+                  <label for="prazo">Prazo <span class="required-field">*</span></label>
+                  <select name="prazo" id="prazo" class="form-control" required></select>
+                </div>
+
+                <div class="form-group col-12">
+                  <label for="detalhe-meta">Detalhamento da Meta <span class="required-field">*</span></label>
+                  <textarea class="col-12" name="detalhe-meta" id="" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group col-6 position-required">
+                  <label for="indic-sucesso">Indicadores de Sucesso (KPIs)</label><br>
+                  <span class="required-field">*</span>
+                  <input type="text" class="form-control mb-3" name="indic-sucesso" placeholder="" required>
+                  <input type="text" class="form-control mb-3" name="indic-sucesso" placeholder="">
+                  <input type="text" class="form-control" name="indic-sucesso" placeholder="">
+                </div>
+                <div class="form-group col-6 position-required">
+                  <label for="metrica">Métrica (número ou porcentagem)</label><br>
+                  <span class="required-field">*</span>
+                  <input type="text" class="form-control mb-3" name="metrica" placeholder="" required>
+                  <input type="text" class="form-control mb-3" name="metrica" placeholder="">
+                  <input type="text" class="form-control" name="metrica" placeholder="">
+                </div>
+              </div>
+            <!-- </form> -->
+        </div>
+        <div class="tab-pane fade" id="autoavalia" aria-labelledby="autoavalia-tab">Teste</div>
+        <div class="tab-pane fade" id="avaliagest" aria-labelledby="avaliagest-tab">...</div>
       </div>
     </div>
-  </section>
+
+    <div class="peso-total mt-4 col-5 p-0 ">
+      <label for="peso-total">Peso Total (%) <span class="required-field">*</span></label>
+      <input type="text" class="form-control" name="peso-total">
+    </div>
+
+    <div class="col-6 mt-4 p-0">
+      <button type="button" class="btn mr-3">Salvar Rascunho</button>
+      <button type="button" class="btn mr-3">Salvar e Enviar</button>
+      <button type="button" class="btn mr-3">Fechar</button>
+    </div>
+
+  </form>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
