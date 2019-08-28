@@ -126,3 +126,15 @@
   font-weight: 700;
 }
 
+.btn:hover {
+  background-color: #00CCFF;
+  color: #ffffff;
+}
+
+/* da pra criar mixin h3 com color e border
+o outro com font size family...
+coloquei os inputs que vão ser preenchidos automaticamente com readonly 
+selects peso, prioridade estratégicas e prazo não consegui ver as opções
+ano estático
+tabs com campo disabled, basta trocar para atived via javascript
+*/
