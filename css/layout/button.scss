@@ -7,8 +7,8 @@
   font-size: 14px;
   font-weight: 700;
 
-  :hover {
-    background-color: $color-seventh;
-    color: $color-sixth;
-  }
+  &:hover {
+  background-color: $color-seventh;
+  color: $color-sixth;
+}
 }

@@ -1,10 +1,12 @@
 @import 'helpers/colors';
 @import 'helpers/mixins';
 
+@import 'layout/principal-home';
+
 @import 'layout/navbar';
 @import 'layout/form-dados';
 @import 'layout/form-tabs';
 @import 'layout/form-metas';
 @import 'layout/peso-total';
 @import 'layout/button';
-@import 'layout/gerais'
+@import 'layout/gerais-form'

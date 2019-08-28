@@ -1,8 +1,5 @@
 .main-title {
-  color: $color-first;
-  font-family: 'Arial Bold', Arial;
-  font-size: 28px;
-  font-weight: 700;
+  @include titulo-principal($color-first);
 }
 
 .required-field {
@@ -20,3 +17,11 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+/* apenas para marcação do logo */
+.logo {
+  width: 255px;
+  height: 140px;
+  background-color: #005949; 
+}
+/*  */

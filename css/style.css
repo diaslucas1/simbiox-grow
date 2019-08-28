@@ -1,4 +1,5 @@
-.dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
+@charset "UTF-8";
+.subtitle-main, .busca-home, .busca-home::placeholder, .container-footer p, .dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
   font-family: 'Arial Regular', Arial;
   font-size: 16px;
   font-weight: 400; }
@@ -7,6 +8,23 @@
   font-family: 'Verdana Regular', Verdana, serif;
   font-size: 14px;
   font-weight: 400; }
+
+.subtitle-main {
+  font-size: 20px !important;
+  color: #006892; }
+
+.busca-home, .busca-home::placeholder {
+  border-color: #006892;
+  font-size: 14px !important;
+  color: #006892;
+  height: 40px; }
+
+.container-footer {
+  height: 170px;
+  background-color: #005949; }
+  .container-footer p {
+    font-size: 28px !important;
+    color: #ffffff; }
 
 .navbar {
   border-bottom: 7px #005949 solid; }
@@ -128,7 +146,7 @@
   font-family: 'Arial Bold', Arial;
   font-size: 14px;
   font-weight: 700; }
-  .btn :hover {
+  .btn:hover {
     background-color: #00CCFF;
     color: #ffffff; }
 
@@ -150,5 +168,13 @@
   font-family: 'Arial Regular', Arial;
   font-size: 14px;
   font-weight: 400; }
+
+/* apenas para marcação do logo */
+.logo {
+  width: 255px;
+  height: 140px;
+  background-color: #005949; }
+
+/*  */
 
 /*# sourceMappingURL=style.css.map */

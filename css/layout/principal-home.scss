@@ -1,1 +1,24 @@
-// %extend
+
+.subtitle-main {
+  @extend %form-title;
+  font-size: 20px !important;
+  color: $color-first;
+}
+
+.busca-home, .busca-home::placeholder {
+  @include cor-borda($color-first);
+  @extend %form-title;
+  font-size: 14px !important;
+  color: $color-first;
+  height: 40px;
+}
+
+.container-footer {
+  height: 170px;
+  background-color: $color-zero;
+  p {
+    @extend %form-title;
+    font-size: 28px !important;
+    color: $color-sixth;
+  }
+}
