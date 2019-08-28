@@ -1,0 +1,56 @@
+.nav-tabs {
+  .nav-item a {
+    @extend %form-title;
+    color: $color-second !important;
+    font-size: 14px !important;
+    margin-right: 2px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .nav-item:hover {
+    background-color: $color-third;
+  }
+  li .disabled {
+    color: #cccccc !important;
+  }
+}
+
+.menu1 .active {
+  background-color: black;
+}
+
+.tab-content1 {
+  background-color: rgba(180, 30, 142, 0.2);
+}
+
+.tab-content2 {
+  background-color: rgba(72, 168, 66, 0.2) !important;
+}
+
+.tab-content3 {
+  background-color: rgba(244, 121, 32, 0.2);
+}
+
+.tab-content4 {
+  background-color: rgba(39, 170, 225, 0.2);
+}
+
+.tab-content5 {
+  background-color: rgba(158, 0, 50, 0.2);
+}
+
+
+$color-sixteenth: #B41E8E;
+$color-seventeenth: rgba(180, 30, 142, 0.2);
+
+$color-eighth: #48A842;
+$color-ninth: rgba(72, 168, 66, 0.2);
+
+$color-twelfth:#F47920;
+$color-thirteenth:rgba(244, 121, 32, 0.2);
+
+$color-fourteenth:#27AAE1;
+$color-fifteenth:rgba(39, 170, 225, 0.2);
+
+$color-tenth:#9e0032;
+$color-eleventh: rgba(158, 0, 50, 0.2);

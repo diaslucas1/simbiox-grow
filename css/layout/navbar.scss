@@ -1,0 +1,10 @@
+.navbar {
+  border-bottom: 7px $color-zero solid;
+
+  .nav-item a {
+    color: $color-zero;
+    font-family: 'Verdana Bold', Verdana;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

@@ -98,68 +98,7 @@
     <p class="text-center text-smart mt-4">SMART: Todas as metas devem ser Específicas, Mensuráveis, Possíveis de Alcançar, Relevantes e Ter Prazo<br>Estabeleça de 3 a 5 metas para o ano. A soma dos pesos deve ser igual a 100%</p>
 
     <!-- FORMS METAS -->
-    <div class="metas mt-4">
-      <h3 class="col-12">Meta 1 <span class="required-field">*</span></h3>
-    
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" id="meta-tab" data-toggle="tab" href="#meta" aria-controls="meta" aria-selected="true">Meta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" id="autoavalia-tab" data-toggle="tab" href="#autoavalia" aria-controls="autoavalia" aria-selected="false">Auto Avaliação</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" id="avaliagest-tab" data-toggle="tab" href="#avaliagest" aria-controls="avaliagest" aria-selected="false">Avaliação Gestor</a>
-        </li>
-      </ul>
-      <div class="tab-content">
-        <div class="tab-pane fade show active" id="meta" aria-labelledby="meta-tab">
-            <!-- <form action="#"> -->
-              <div class="row m-0 pt-1">
-                <div class="form-group col-12">
-                  <label for="titulo-meta">Título da Meta <span class="required-field">*</span></label>
-                  <input type="text" class="form-control" name="titulo-meta" placeholder="Digite o título da Meta" required>
-                </div>
-
-                <div class="form-group col-1">
-                  <label for="peso">Peso (%) <span class="required-field">*</span></label>
-                  <select name="peso" id="peso" class="form-control" required></select>
-                </div>
-                <div class="form-group col-6">
-                  <label for="prior-estrat">Prioridade Estratégica <span class="required-field">*</span></label>
-                  <select name="prior-estrat" id="prior-estrat" class="form-control" required></select>
-                </div>
-                <div class="form-group col-2">
-                  <label for="prazo">Prazo <span class="required-field">*</span></label>
-                  <select name="prazo" id="prazo" class="form-control" required></select>
-                </div>
-
-                <div class="form-group col-12">
-                  <label for="detalhe-meta">Detalhamento da Meta <span class="required-field">*</span></label>
-                  <textarea class="col-12" name="detalhe-meta" id="" rows="5" required></textarea>
-                </div>
-
-                <div class="form-group col-6 position-required">
-                  <label for="indic-sucesso">Indicadores de Sucesso (KPIs)</label><br>
-                  <span class="required-field">*</span>
-                  <input type="text" class="form-control mb-3" name="indic-sucesso" placeholder="" required>
-                  <input type="text" class="form-control mb-3" name="indic-sucesso" placeholder="">
-                  <input type="text" class="form-control" name="indic-sucesso" placeholder="">
-                </div>
-                <div class="form-group col-6 position-required">
-                  <label for="metrica">Métrica (número ou porcentagem)</label><br>
-                  <span class="required-field">*</span>
-                  <input type="text" class="form-control mb-3" name="metrica" placeholder="" required>
-                  <input type="text" class="form-control mb-3" name="metrica" placeholder="">
-                  <input type="text" class="form-control" name="metrica" placeholder="">
-                </div>
-              </div>
-            <!-- </form> -->
-        </div>
-        <div class="tab-pane fade" id="autoavalia" aria-labelledby="autoavalia-tab">......</div>
-        <div class="tab-pane fade" id="avaliagest" aria-labelledby="avaliagest-tab">...</div>
-      </div>
-    </div>
+    <div class="metas"></div>
 
     <div class="peso-total mt-4 col-5 p-0 float-right">
       <label for="peso-total">Peso Total (%) <span class="required-field">*</span></label>
@@ -180,6 +119,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <script src="js/goalForms.js"></script>
   <script src="js/selectOptions.js"></script>
+  <script src="js/calcPeso.js"></script>
 </body>
 </html>

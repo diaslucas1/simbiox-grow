@@ -1,10 +1,97 @@
-// $cor-zero: #000;
-// $cor-first: 
-// $cor-second: 
-// $cor-third:
-
-@import 'helpers/variaveis';
+@import 'helpers/colors';
 @import 'helpers/mixins';
 
 @import 'layout/navbar';
+@import 'layout/form-dados';
+@import 'layout/form-tabs';
+@import 'layout/form-metas';
 
+
+/* apenas para marcação do logo */
+.logo {
+  width: 255px;
+  height: 140px;
+  background-color: #005949; 
+}
+/*  */
+
+
+
+%form-title {
+  font-family: 'Arial Regular', Arial;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+%form-font {
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.main-title {
+  color: #006892;
+  font-family: 'Arial Bold', Arial;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.required-field {
+  color: #ff0000;
+}
+
+
+
+.peso-total label {
+  color: #006892;
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+
+.peso-total label {
+  color: #006892;
+}
+
+.peso-total .form-control, .peso-total .form-control::placeholder {
+  color: #000000;
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px; 
+  border-color: #006892;
+}
+
+.peso-total {
+  border-color: #006892;
+}
+
+.position-required span {
+  position: absolute;
+  left: 5px;
+}
+
+.text-smart {
+  color: #333333;
+  font-family: 'Arial Regular', Arial;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #005949;
+  color: #ffffff;
+  font-family: 'Arial Bold', Arial;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #00CCFF;
+  color: #ffffff;
+}

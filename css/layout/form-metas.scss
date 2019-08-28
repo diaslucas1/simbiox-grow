@@ -1,0 +1,102 @@
+.meta1, .meta2, .meta3, .meta4, .meta5, .meta6 {
+  label {
+    color: $color-nineteenth;
+    @extend %form-font;
+  }
+}
+
+.meta1 {
+  h3 {
+    @include titulo-form($color-sixteenth, 1px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda($color-sixteenth);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+
+  textarea {
+    @include cor-borda($color-sixteenth);
+  }
+}
+
+.meta2 {
+  h3 {
+    @include titulo-form($color-eighth, 1px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda($color-eighth);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+
+  textarea {
+    @include cor-borda($color-eighth);
+  }
+}
+
+.meta3 {
+  h3 {
+    @include titulo-form($color-twelfth, 1px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda($color-twelfth);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+
+  textarea {
+    @include cor-borda($color-twelfth);
+  }
+}
+
+.meta4 {
+  h3 {
+    @include titulo-form(#27AAE1, 1px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda(#27AAE1);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+
+  textarea {
+    @include cor-borda(#27AAE1);
+  }
+}
+
+.meta5 {
+  h3 {
+    @include titulo-form(#9e0032, 1px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda(#9e0032);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+
+  textarea {
+    @include cor-borda(#9e0032);
+  }
+}
+

@@ -15,6 +15,11 @@ function selectOptions(selectId, arrayOptions) {
 }
 
 selectOptions('diretoria', diretoriaOptions);
-selectOptions('peso', pesoOptions);
 selectOptions('prior-estrat', prioridadeOptions);
 selectOptions('prazo', prazoOptions);
+
+// adicionando options para peso em cada meta
+for(let i = 0; i < 5; i++) {
+  let pesoId = 'peso' + (i+1);
+  selectOptions(pesoId, pesoOptions);
+}

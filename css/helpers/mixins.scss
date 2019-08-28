@@ -1,6 +1,8 @@
-// @mixin navbar($color) {
-//   border-bottom: 7px $color solid;
+@mixin titulo-form($cor, $alturaBorda) {
+  color: $cor;
+  border-bottom: $alturaBorda $cor solid;
+}
 
-// }
-
-
+@mixin cor-borda($cor) {
+  border-color: $cor;
+}

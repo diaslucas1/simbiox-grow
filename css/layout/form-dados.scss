@@ -1,0 +1,22 @@
+.dados-pessoais {
+  h3 {
+    @include titulo-form($color-first, 2px);
+    @extend %form-title;
+    padding-bottom: 10px;
+  }
+
+  label {
+    color: $color-first;
+    @extend %form-font;
+  }
+
+  .form-control, .form-control::placeholder {
+    @include cor-borda($color-first);
+    @extend %form-font;
+    color: $color-nineteenth;
+    height: 40px; 
+  }
+}
+
+
+
