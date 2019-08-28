@@ -1,10 +1,9 @@
-/* apenas para marcação do logo */
-.logo {
-  width: 255px;
-  height: 140px;
-  background-color: #005949; 
-}
-/*  */
+// @mixin navbar($color) {
+//   border-bottom: 7px $color solid;
+
+// }
+
+
 
 .nav-item a {
   color: #005949;
@@ -16,5 +15,3 @@
 .navbar {
   border-bottom: 7px #005949 solid;
 }
-
-/*# sourceMappingURL=style.css.map */
