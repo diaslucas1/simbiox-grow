@@ -53,5 +53,7 @@
   font-family: 'Verdana Regular', Verdana, serif;
   font-size: 14px;
   font-weight: 400;
+  height: 40px; 
+  border-color: #006892;
 }
 
