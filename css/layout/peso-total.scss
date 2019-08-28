@@ -1,0 +1,14 @@
+.peso-total {
+  label {
+    color: $color-first;
+    @extend %form-font;
+  }
+
+  .form-control, .form-control::placeholder {
+    color: $color-nineteenth;
+    @include titulo-form($color-nineteenth, 1px);
+    @extend %form-font;
+    height: 40px; 
+    @include cor-borda($color-first);
+  }
+}

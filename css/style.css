@@ -1,4 +1,13 @@
-@charset "UTF-8";
+.dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
+  font-family: 'Arial Regular', Arial;
+  font-size: 16px;
+  font-weight: 400; }
+
+.dados-pessoais label, .dados-pessoais .form-control, .dados-pessoais .form-control::placeholder, .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label, .meta1 .form-control, .meta1 .form-control::placeholder, .meta2 .form-control, .meta2 .form-control::placeholder, .meta3 .form-control, .meta3 .form-control::placeholder, .meta4 .form-control, .meta4 .form-control::placeholder, .meta5 .form-control, .meta5 .form-control::placeholder, .peso-total label, .peso-total .form-control, .peso-total .form-control::placeholder {
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400; }
+
 .navbar {
   border-bottom: 7px #005949 solid; }
   .navbar .nav-item a {
@@ -29,22 +38,19 @@
 .nav-tabs li .disabled {
   color: #cccccc !important; }
 
-.menu1 .active {
-  background-color: black; }
-
-.tab-content1 {
+.meta1 .nav-item .active, .tab-content1 {
   background-color: rgba(180, 30, 142, 0.2); }
 
-.tab-content2 {
+.meta2 .nav-item .active, .tab-content2 {
   background-color: rgba(72, 168, 66, 0.2) !important; }
 
-.tab-content3 {
+.meta3 .nav-item .active, .tab-content3 {
   background-color: rgba(244, 121, 32, 0.2); }
 
-.tab-content4 {
+.meta4 .nav-item .active, .tab-content4 {
   background-color: rgba(39, 170, 225, 0.2); }
 
-.tab-content5 {
+.meta5 .nav-item .active, .tab-content5 {
   background-color: rgba(158, 0, 50, 0.2); }
 
 .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label {
@@ -105,22 +111,26 @@
 .meta5 textarea {
   border-color: #9e0032; }
 
-/* apenas para marcação do logo */
-.logo {
-  width: 255px;
-  height: 140px;
-  background-color: #005949; }
+.peso-total label {
+  color: #006892; }
+.peso-total .form-control, .peso-total .form-control::placeholder {
+  color: #000000;
+  color: #000000;
+  border-bottom: 1px #000000 solid;
+  height: 40px;
+  border-color: #006892; }
 
-/*  */
-.dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
-  font-family: 'Arial Regular', Arial;
-  font-size: 16px;
-  font-weight: 400; }
-
-.dados-pessoais label, .dados-pessoais .form-control, .dados-pessoais .form-control::placeholder, .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label, .meta1 .form-control, .meta1 .form-control::placeholder, .meta2 .form-control, .meta2 .form-control::placeholder, .meta3 .form-control, .meta3 .form-control::placeholder, .meta4 .form-control, .meta4 .form-control::placeholder, .meta5 .form-control, .meta5 .form-control::placeholder {
-  font-family: 'Verdana Regular', Verdana, serif;
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #005949;
+  color: #ffffff;
+  font-family: 'Arial Bold', Arial;
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 700; }
+  .btn :hover {
+    background-color: #00CCFF;
+    color: #ffffff; }
 
 .main-title {
   color: #006892;
@@ -131,26 +141,6 @@
 .required-field {
   color: #ff0000; }
 
-.peso-total label {
-  color: #006892;
-  font-family: 'Verdana Regular', Verdana, serif;
-  font-size: 14px;
-  font-weight: 400; }
-
-.peso-total label {
-  color: #006892; }
-
-.peso-total .form-control, .peso-total .form-control::placeholder {
-  color: #000000;
-  font-family: 'Verdana Regular', Verdana, serif;
-  font-size: 14px;
-  font-weight: 400;
-  height: 40px;
-  border-color: #006892; }
-
-.peso-total {
-  border-color: #006892; }
-
 .position-required span {
   position: absolute;
   left: 5px; }
@@ -160,26 +150,5 @@
   font-family: 'Arial Regular', Arial;
   font-size: 14px;
   font-weight: 400; }
-
-.btn {
-  width: 150px;
-  height: 40px;
-  background-color: #005949;
-  color: #ffffff;
-  font-family: 'Arial Bold', Arial;
-  font-size: 14px;
-  font-weight: 700; }
-
-.btn:hover {
-  background-color: #00CCFF;
-  color: #ffffff; }
-
-/* da pra criar mixin h3 com color e border
-o outro com font size family...
-coloquei os inputs que vão ser preenchidos automaticamente com readonly 
-selects peso, prioridade estratégicas e prazo não consegui ver as opções
-ano estático
-tabs com campo disabled, basta trocar para atived via javascript
-*/
 
 /*# sourceMappingURL=style.css.map */

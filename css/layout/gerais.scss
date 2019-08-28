@@ -1,0 +1,22 @@
+.main-title {
+  color: $color-first;
+  font-family: 'Arial Bold', Arial;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.required-field {
+  color: $color-fifth;
+}
+
+.position-required span {
+  position: absolute;
+  left: 5px;
+}
+
+.text-smart {
+  color: #333333;
+  font-family: 'Arial Regular', Arial;
+  font-size: 14px;
+  font-weight: 400;
+}
