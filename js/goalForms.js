@@ -27,7 +27,7 @@ function createGoalForm(numberGoals) {
                       <input type="text" class="form-control" name="titulo-meta${i+1}" placeholder="Digite o título da Meta" required>
                     </div>
 
-                    <div class="form-group col-1">
+                    <div class="form-group col-2">
                       <label for="peso${i+1}">Peso (%) <span class="required-field">*</span></label>
                       <select name="peso${i+1}" id="peso${i+1}" class="form-control" required></select>
                     </div>
@@ -93,7 +93,7 @@ function createGoalForm(numberGoals) {
                     <input type="text" class="form-control" name="titulo-meta${i+1}" placeholder="Digite o título da Meta" >
                   </div>
 
-                  <div class="form-group col-1">
+                  <div class="form-group col-2">
                     <label for="peso${i+1}">Peso (%)</label>
                     <select name="peso${i+1}" id="peso${i+1}" class="form-control" ></select>
                   </div>
