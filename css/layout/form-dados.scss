@@ -1,4 +1,10 @@
+.required-subtitle {
+  @extend %form-title;
+  color: #183c47;
+}
+
 .dados-pessoais {
+
   h3 {
     @include titulo-form($color-first, 2px);
     @extend %form-title;

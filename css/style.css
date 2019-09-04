@@ -10,7 +10,7 @@
   color: #000000;
   height: 40px; }
 
-.subtitle-main, .busca-home, .busca-home::placeholder, .container-footer p, .dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
+.subtitle-main, .busca-home, .busca-home::placeholder, .container-footer p, .required-subtitle, .dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3 {
   font-family: 'Arial Regular', Arial;
   font-size: 16px;
   font-weight: 400; }
@@ -56,6 +56,9 @@ footer {
     font-family: 'Verdana Bold', Verdana;
     font-size: 18px;
     font-weight: 600; }
+
+.required-subtitle {
+  color: #183c47; }
 
 .dados-pessoais h3 {
   color: #006892;
