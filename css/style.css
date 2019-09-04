@@ -84,19 +84,22 @@ footer {
 .nav-tabs li .disabled {
   color: #cccccc !important; }
 
-.meta1 .nav-item .active, .tab-content1 {
+.tab-content {
+  height: 590px; }
+
+.meta1 .nav-item .active, .meta1 .tab-content {
   background-color: rgba(72, 168, 66, 0.2); }
 
-.meta2 .nav-item .active, .tab-content2 {
+.meta2 .nav-item .active, .meta2 .tab-content {
   background-color: rgba(244, 121, 32, 0.2); }
 
-.meta3 .nav-item .active, .tab-content3 {
+.meta3 .nav-item .active, .meta3 .tab-content {
   background-color: rgba(39, 170, 225, 0.2); }
 
-.meta4 .nav-item .active, .tab-content4 {
+.meta4 .nav-item .active, .meta4 .tab-content {
   background-color: rgba(72, 168, 66, 0.2); }
 
-.meta5 .nav-item .active, .tab-content5 {
+.meta5 .nav-item .active, .meta5 .tab-content {
   background-color: rgba(244, 121, 32, 0.2); }
 
 .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label {

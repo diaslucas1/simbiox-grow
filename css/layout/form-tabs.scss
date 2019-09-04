@@ -15,22 +15,36 @@
   }
 }
 
-.meta1 .nav-item .active, .tab-content1 {
-  background-color: $color-ninth;
+.tab-content {
+  height: 590px;
 }
 
-.meta2 .nav-item .active, .tab-content2 {
-  background-color: $color-thirteenth;
+.meta1 {
+  .nav-item .active, .tab-content {
+    background-color: $color-ninth;
+  }
 }
 
-.meta3 .nav-item .active, .tab-content3 {
-  background-color: $color-fifteenth;
+.meta2 {
+  .nav-item .active, .tab-content {
+    background-color: $color-thirteenth;
+  }
 }
 
-.meta4 .nav-item .active, .tab-content4 {
-  background-color: $color-ninth;
+.meta3 {
+  .nav-item .active, .tab-content {
+    background-color: $color-fifteenth;
+  }
 }
 
-.meta5 .nav-item .active, .tab-content5 {
-  background-color: $color-thirteenth;
+.meta4 {
+  .nav-item .active, .tab-content {
+    background-color: $color-ninth;
+  }
+}
+
+.meta5 {
+  .nav-item .active, .tab-content {
+    background-color: $color-thirteenth;
+  }
 }
