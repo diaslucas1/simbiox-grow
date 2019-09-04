@@ -2,6 +2,7 @@ let diretoriaOptions = ['Selecione', 'Compras e Logística', 'Finanças', 'Desen
 let pesoOptions = [0, 10, 20, 30, 40, 50, 60, 70, 80];
 let prioridadeOptions = ['Selecione'];
 let prazoOptions = ['Selecione'];
+let avaliacaoMeta = ['Selecione', 1, 2, 3, 4];
 
 function selectOptions(selectId, arrayOptions) {
   let select = document.getElementById(selectId);
@@ -16,7 +17,6 @@ function selectOptions(selectId, arrayOptions) {
 
 selectOptions('diretoria', diretoriaOptions);
 
-
 // adicionando options para os selects nas metas
 for(let i = 0; i < 5; i++) {
   let pesoId = 'peso' + (i+1);
@@ -27,5 +27,8 @@ for(let i = 0; i < 5; i++) {
 
   let prazoId = 'prazo' + (i+1);
   selectOptions(prazoId, prazoOptions);
+
+  let avaliacaoMetaId = 'avalia-meta' + (i+1);
+  selectOptions(avaliacaoMetaId, avaliacaoMeta);
 }
 

@@ -12,13 +12,18 @@ function criarAutoAvaliacao(numeroMetas) {
     let autoAvalia = document.getElementById("autoavalia" + (i+1));
     autoAvalia.innerHTML = `
     <div class="row m-0 pt-1">
-      <div class="form-group col-12">
-        <label for="titulo-meta${i+1}">Título da Meta</label>
-        <input type="text" class="form-control" name="titulo-meta${i+1}" placeholder="Digite o título da Meta" >
+      <div class="form-group col-2">
+        <label for="data-autoavalia">Data Auto Avaliação</label>
+        <input type="date" class="form-control" name="data-autoavalia" placeholder="dd/mm/aaaa">
+      </div>
+      <div class="form-group col-2">
+        <label for="avalia-meta${i+1}">Avaliação da Meta</label>
+        <select class="form-control" name="avalia-meta${i+1}" id="avalia-meta${i+1}"></select>
       </div>
 
-      <div class="form-group col-6">
-        <p>Teste</p>
+      <div class="form-group col-12">
+        <label for="comentario-meta">Comentário Meta ${i+1} - Auto Avaliação</label>
+        <textarea class="col-12" name="comentario-meta" id="comentario-meta" rows="6" required></textarea>
       </div>
     </div>
     `

@@ -42,7 +42,7 @@ function criarFormMetas(numeroMetas) {
 
                 <div class="form-group col-12">
                   <label for="detalhe-meta">Detalhamento da Meta <span class="required-field">*</span></label>
-                  <textarea class="col-12" name="detalhe-meta" id="" rows="5" required></textarea>
+                  <textarea class="col-12" name="detalhe-meta" id="detalhe-meta" rows="6" required></textarea>
                 </div>
 
                 <div class="form-group col-6 position-required">
@@ -111,7 +111,7 @@ function criarFormMetas(numeroMetas) {
 
               <div class="form-group col-12">
                 <label for="detalhe-meta">Detalhamento da Meta</label>
-                <textarea class="col-12" name="detalhe-meta" id="" rows="5" ></textarea>
+                <textarea class="col-12" name="detalhe-meta" id="detalhe-meta" rows="6" ></textarea>
               </div>
 
               <div class="form-group col-6">
