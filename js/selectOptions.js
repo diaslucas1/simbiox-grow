@@ -2,7 +2,10 @@ let diretoriaOptions = ['Selecione', 'Compras e Logística', 'Finanças', 'Desen
 let pesoOptions = [0, 10, 20, 30, 40, 50, 60, 70, 80];
 let prioridadeOptions = ['Selecione'];
 let prazoOptions = ['Selecione'];
+
 let avaliacaoMeta = ['Selecione', 1, 2, 3, 4];
+let avaliacaoMetaGest = [...avaliacaoMeta];
+
 
 function selectOptions(selectId, arrayOptions) {
   let select = document.getElementById(selectId);
@@ -30,5 +33,8 @@ for(let i = 0; i < 5; i++) {
 
   let avaliacaoMetaId = 'avalia-meta' + (i+1);
   selectOptions(avaliacaoMetaId, avaliacaoMeta);
+
+  let avaliacaoMetaGestId = 'avalia-metagest' + (i+1);
+  selectOptions(avaliacaoMetaGestId, avaliacaoMetaGest);
 }
 
