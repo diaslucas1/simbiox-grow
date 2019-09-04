@@ -15,8 +15,23 @@
   .form-control, .form-control::placeholder {
     @include cor-borda($color-eighth);
     @extend %form-font;
-    color: $color-nineteenth;
-    height: 40px; 
+    @extend %form-input;
+  }
+  
+  .nav-item .active {
+    @include cor-borda($color-eighth);
+    border-bottom: 1px solid #fff;
+    color: $color-eighth !important;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item .active::after {
+    content: "";
+    background-color: $color-eighth;
+    @extend %tab-meta;
   }
 
   textarea {
@@ -34,8 +49,23 @@
   .form-control, .form-control::placeholder {
     @include cor-borda($color-twelfth);
     @extend %form-font;
-    color: $color-nineteenth;
-    height: 40px; 
+    @extend %form-input;
+  }
+
+  .nav-item .active {
+    @include cor-borda($color-twelfth);
+    border-bottom: 1px solid #fff;
+    color: $color-twelfth !important;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item .active::after {
+    content: "";
+    background-color: $color-twelfth;
+    @extend %tab-meta
   }
 
   textarea {
@@ -53,8 +83,23 @@
   .form-control, .form-control::placeholder {
     @include cor-borda($color-fourteenth);
     @extend %form-font;
-    color: $color-nineteenth;
-    height: 40px; 
+    @extend %form-input; 
+  }
+
+  .nav-item .active {
+    @include cor-borda($color-fourteenth);
+    border-bottom: 1px solid #fff;
+    color: $color-fourteenth !important;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item .active::after {
+    content: "";
+    background-color: $color-fourteenth;
+    @extend %tab-meta
   }
 
   textarea {
@@ -72,8 +117,23 @@
   .form-control, .form-control::placeholder {
     @include cor-borda($color-eighth);
     @extend %form-font;
-    color: $color-nineteenth;
-    height: 40px; 
+    @extend %form-input; 
+  }
+
+  .nav-item .active {
+    @include cor-borda($color-eighth);
+    border-bottom: 1px solid #fff;
+    color: $color-eighth !important;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item .active::after {
+    content: "";
+    background-color: $color-eighth;
+    @extend %tab-meta
   }
 
   textarea {
@@ -91,8 +151,23 @@
   .form-control, .form-control::placeholder {
     @include cor-borda($color-twelfth);
     @extend %form-font;
-    color: $color-nineteenth;
-    height: 40px; 
+    @extend %form-input; 
+  }
+
+  .nav-item .active {
+    @include cor-borda($color-twelfth);
+    border-bottom: 1px solid #fff;
+    color: $color-twelfth !important;
+  }
+
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-item .active::after {
+    content: "";
+    background-color: $color-twelfth;
+    @extend %tab-meta
   }
 
   textarea {

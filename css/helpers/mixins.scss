@@ -14,6 +14,19 @@
   font-weight: 700;
 }
 
+%tab-meta {
+  position: absolute;
+  bottom: 0px;
+  left: 103.13px;
+  width: 900%;
+  height: 1px;
+}
+
+%form-input {
+  color: $color-nineteenth;
+  height: 40px;
+}
+
 %form-title {
   font-family: 'Arial Regular', Arial;
   font-size: 16px;
