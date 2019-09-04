@@ -32,7 +32,9 @@
 
   <form class="container mt-5 mb-5" onsubmit="calculaPeso(); return false;">
     
-    <h1 class="main-title">Especificar Metas</h1>
+    <h1 class="main-title mb-3">Especificar Metas</h1>
+    <p class="float-right required-subtitle m-0"><span class="required-field">*</span> Indica um campo de preenchimento obrigatório</p>
+    <div class="clearfix"></div>
     
     <!-- FORM DADOS PESSOAIS -->
     <div class="dados-pessoais mt-5">
@@ -65,30 +67,29 @@
             <label for="diretoria">Diretoria <span class="required-field">*</span></label>
             <select name="diretoria" id="diretoria" class="form-control"></select>
           </div>
-
           <div class="form-group col-2">
-            <label for="data-criacao">Data Criação <span class="required-field">*</span></label>
-            <input type="date" class="form-control" name="data-criacao" placeholder="dd/mm/aaaa" required>
+            <label for="data-criacao">Dt Criação <span class="required-field">*</span></label>
+            <input type="date" class="form-control datas" name="data-criacao" placeholder="dd/mm/aaaa" required>
           </div>
           <div class="form-group col-2">
-            <label for="data-feedback">Data Feedback <span class="required-field">*</span></label>
-            <input type="date" class="form-control" name="data-feedback" placeholder="dd/mm/aaaa" readonly>
+            <label for="data-feedback">Dt Feedback <span class="required-field">*</span></label>
+            <input type="date" class="form-control datas" name="data-feedback" placeholder="dd/mm/aaaa" readonly>
           </div>
           <div class="form-group col-2">
             <label for="ano">Ano <span class="required-field">*</span></label>
-            <input type="number" class="form-control" name="ano" placeholder="2019" readonly>
+            <input type="number" class="form-control datas" name="ano" placeholder="2019" readonly>
           </div>
           <div class="form-group col-2">
-            <label for="data-autoavaliacao">Data Auto Avaliação</label>
-            <input type="date" class="form-control" name="data-autoavaliacao" placeholder="dd/mm/aaaa" readonly>
+            <label for="data-autoavaliacao">Dt Auto Avaliação</label>
+            <input type="date" class="form-control datas" name="data-autoavaliacao" placeholder="dd/mm/aaaa" readonly>
           </div>
           <div class="form-group col-2">
-            <label for="data-avaliagest">Data Avaliação Gestor</label>
-            <input type="date" class="form-control" name="data-avaliagest" placeholder="dd/mm/aaaa" readonly>
+            <label for="data-avaliagest">Dt Avaliação Gestor</label>
+            <input type="date" class="form-control datas" name="data-avaliagest" placeholder="dd/mm/aaaa" readonly>
           </div>
           <div class="form-group col-2">
-            <label for="data-consistência">Data Consistência</label>
-            <input type="date" class="form-control" name="data-consistência" placeholder="dd/mm/aaaa" readonly>
+            <label for="data-consistência">Dt Consistência</label>
+            <input type="date" class="form-control datas" name="data-consistência" placeholder="dd/mm/aaaa" readonly>
           </div>
         </div>
       <!-- </form> -->

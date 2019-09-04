@@ -7,7 +7,7 @@ function createGoalForm(numberGoals) {
         <div class="meta${i+1} mt-4">
           <h3 class="col-12">Meta ${i+1} <span class="required-field">*</span></h3>
           
-          <ul class="nav nav-tabs">
+          <ul class="nav nav-tabs mt-3">
             <li class="nav-item">
               <a class="nav-link active" id="meta${i+1}-tab" data-toggle="tab" href="#meta${i+1}" aria-controls="meta${i+1}" aria-selected="true">Meta</a>
             </li>
@@ -73,7 +73,7 @@ function createGoalForm(numberGoals) {
       <div class="meta${i+1} mt-4">
         <h3 class="col-12">Meta ${i+1}</h3>
         
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-tabs mt-3">
           <li class="nav-item">
             <a class="nav-link active" id="meta${i+1}-tab" data-toggle="tab" href="#meta${i+1}" aria-controls="meta${i+1}" aria-selected="true">Meta</a>
           </li>
