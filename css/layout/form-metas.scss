@@ -17,21 +17,21 @@
     @extend %form-font;
     @extend %form-input;
   }
-  
-  .nav-item .active {
-    @include cor-borda($color-eighth);
-    border-bottom: 1px solid #fff;
-    color: $color-eighth !important;
-  }
 
   .nav-item {
     position: relative;
-  }
+  
+    .active {
+      @include cor-borda($color-eighth);
+      border-bottom: 1px solid #fff;
+      color: $color-eighth !important;
+    }
 
-  .nav-item .active::after {
-    content: "";
-    background-color: $color-eighth;
-    @extend %tab-meta;
+    .active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-meta;
+    }
   }
 
   textarea {
@@ -52,20 +52,20 @@
     @extend %form-input;
   }
 
-  .nav-item .active {
-    @include cor-borda($color-twelfth);
-    border-bottom: 1px solid #fff;
-    color: $color-twelfth !important;
-  }
-
   .nav-item {
     position: relative;
-  }
+  
+    .active {
+      @include cor-borda($color-twelfth);
+      border-bottom: 1px solid #fff;
+      color: $color-twelfth !important;
+    }
 
-  .nav-item .active::after {
-    content: "";
-    background-color: $color-twelfth;
-    @extend %tab-meta
+    .active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-meta
+    }
   }
 
   textarea {
@@ -86,20 +86,20 @@
     @extend %form-input; 
   }
 
-  .nav-item .active {
-    @include cor-borda($color-fourteenth);
-    border-bottom: 1px solid #fff;
-    color: $color-fourteenth !important;
-  }
-
   .nav-item {
     position: relative;
-  }
+  
+    .active {
+      @include cor-borda($color-fourteenth);
+      border-bottom: 1px solid #fff;
+      color: $color-fourteenth !important;
+    }
 
-  .nav-item .active::after {
-    content: "";
-    background-color: $color-fourteenth;
-    @extend %tab-meta
+    .active::after {
+      content: "";
+      background-color: $color-fourteenth;
+      @extend %tab-meta
+    }
   }
 
   textarea {
@@ -120,20 +120,20 @@
     @extend %form-input; 
   }
 
-  .nav-item .active {
-    @include cor-borda($color-eighth);
-    border-bottom: 1px solid #fff;
-    color: $color-eighth !important;
-  }
-  
   .nav-item {
     position: relative;
-  }
 
-  .nav-item .active::after {
-    content: "";
-    background-color: $color-eighth;
-    @extend %tab-meta
+    .active {
+      @include cor-borda($color-eighth);
+      border-bottom: 1px solid #fff;
+      color: $color-eighth !important;
+    }
+
+    .active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-meta
+    }
   }
 
   textarea {
@@ -154,20 +154,20 @@
     @extend %form-input; 
   }
 
-  .nav-item .active {
-    @include cor-borda($color-twelfth);
-    border-bottom: 1px solid #fff;
-    color: $color-twelfth !important;
-  }
-
   .nav-item {
     position: relative;
-  }
 
-  .nav-item .active::after {
-    content: "";
-    background-color: $color-twelfth;
-    @extend %tab-meta
+    .active {
+      @include cor-borda($color-twelfth);
+      border-bottom: 1px solid #fff;
+      color: $color-twelfth !important;
+    }
+
+    .active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-meta
+    }
   }
 
   textarea {

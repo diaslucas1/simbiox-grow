@@ -1,17 +1,25 @@
 .nav-tabs {
-  .nav-item a {
-    @extend %form-title;
-    color: $color-second !important;
-    font-size: 14px !important;
-    margin-right: 2px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-  .nav-item:hover {
+  .nav-item {
+    a {
+      @extend %form-title;
+      font-size: 14px !important;
+      margin-right: 2px;
+      padding-left: 35px;
+      padding-right: 35px;
+
+      &[class="nav-link"] {
+        color: #0099FF;
+      }
+      &:hover {
+        color: $color-nineteenth;
+      }
+    }
+    &:hover {
     background-color: $color-third;
-  }
-  li .disabled {
+    }
+    .disabled {
     color: #cccccc !important;
+    }
   }
 }
 
