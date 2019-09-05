@@ -1,9 +1,23 @@
 @charset "UTF-8";
-.meta1 .nav-item .active::after, .meta2 .nav-item .active::after, .meta3 .nav-item .active::after, .meta4 .nav-item .active::after, .meta5 .nav-item .active::after {
+.meta1 .nav-item #meta1-tab.active::after, .meta2 .nav-item #meta2-tab.active::after, .meta3 .nav-item #meta3-tab.active::after, .meta4 .nav-item #meta4-tab.active::after, .meta5 .nav-item #meta5-tab.active::after {
   position: absolute;
   bottom: 0px;
   left: 103.13px;
-  width: 900%;
+  width: 840px;
+  height: 1px; }
+
+.meta1 .nav-item #autoavalia1-tab.active::after, .meta2 .nav-item #autoavalia2-tab.active::after, .meta3 .nav-item #autoavalia3-tab.active::after, .meta4 .nav-item #autoavalia4-tab.active::after, .meta5 .nav-item #autoavalia5-tab.active::after {
+  position: absolute;
+  bottom: 0px;
+  left: 165.14px;
+  width: calc(840px - 165.14px);
+  height: 1px; }
+
+.meta1 .nav-item #avaliagest1-tab.active::after, .meta2 .nav-item #avaliagest2-tab.active::after, .meta3 .nav-item #avaliagest3-tab.active::after, .meta4 .nav-item #avaliagest4-tab.active::after, .meta5 .nav-item #avaliagest5-tab.active::after {
+  position: absolute;
+  bottom: 0px;
+  left: 178.36px;
+  width: calc(840px - 165.14px - 178.36px);
   height: 1px; }
 
 .meta1 .form-control, .meta1 .form-control::placeholder, .meta2 .form-control, .meta2 .form-control::placeholder, .meta3 .form-control, .meta3 .form-control::placeholder, .meta4 .form-control, .meta4 .form-control::placeholder, .meta5 .form-control, .meta5 .form-control::placeholder, .avaliacao-final .form-control, .avaliacao-final .form-control::placeholder, .feedback-gestor .form-control, .feedback-gestor .form-control::placeholder {
@@ -121,7 +135,13 @@ footer {
     border-color: #48A842;
     border-bottom: 1px solid #fff;
     color: #48A842 !important; }
-  .meta1 .nav-item .active::after {
+  .meta1 .nav-item #meta1-tab.active::after {
+    content: "";
+    background-color: #48A842; }
+  .meta1 .nav-item #autoavalia1-tab.active::after {
+    content: "";
+    background-color: #48A842; }
+  .meta1 .nav-item #avaliagest1-tab.active::after {
     content: "";
     background-color: #48A842; }
 .meta1 textarea {
@@ -139,7 +159,13 @@ footer {
     border-color: #F47920;
     border-bottom: 1px solid #fff;
     color: #F47920 !important; }
-  .meta2 .nav-item .active::after {
+  .meta2 .nav-item #meta2-tab.active::after {
+    content: "";
+    background-color: #F47920; }
+  .meta2 .nav-item #autoavalia2-tab.active::after {
+    content: "";
+    background-color: #F47920; }
+  .meta2 .nav-item #avaliagest2-tab.active::after {
     content: "";
     background-color: #F47920; }
 .meta2 textarea {
@@ -157,7 +183,13 @@ footer {
     border-color: #27AAE1;
     border-bottom: 1px solid #fff;
     color: #27AAE1 !important; }
-  .meta3 .nav-item .active::after {
+  .meta3 .nav-item #meta3-tab.active::after {
+    content: "";
+    background-color: #27AAE1; }
+  .meta3 .nav-item #autoavalia3-tab.active::after {
+    content: "";
+    background-color: #27AAE1; }
+  .meta3 .nav-item #avaliagest3-tab.active::after {
     content: "";
     background-color: #27AAE1; }
 .meta3 textarea {
@@ -175,7 +207,13 @@ footer {
     border-color: #48A842;
     border-bottom: 1px solid #fff;
     color: #48A842 !important; }
-  .meta4 .nav-item .active::after {
+  .meta4 .nav-item #meta4-tab.active::after {
+    content: "";
+    background-color: #48A842; }
+  .meta4 .nav-item #autoavalia4-tab.active::after {
+    content: "";
+    background-color: #48A842; }
+  .meta4 .nav-item #avaliagest4-tab.active::after {
     content: "";
     background-color: #48A842; }
 .meta4 textarea {
@@ -193,7 +231,13 @@ footer {
     border-color: #F47920;
     border-bottom: 1px solid #fff;
     color: #F47920 !important; }
-  .meta5 .nav-item .active::after {
+  .meta5 .nav-item #meta5-tab.active::after {
+    content: "";
+    background-color: #F47920; }
+  .meta5 .nav-item #autoavalia5-tab.active::after {
+    content: "";
+    background-color: #F47920; }
+  .meta5 .nav-item #avaliagest5-tab.active::after {
     content: "";
     background-color: #F47920; }
 .meta5 textarea {

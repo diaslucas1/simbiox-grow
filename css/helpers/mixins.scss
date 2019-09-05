@@ -24,8 +24,24 @@
   position: absolute;
   bottom: 0px;
   left: 103.13px;
-  width: 900%;
+  width: 840px;
   height: 1px;
+}
+
+%tab-autoavaliacao {
+  position: absolute;
+  bottom: 0px;
+  left: 165.14px;
+  width: calc(840px - 165.14px); // subtraio a segunda tab(165.14px)
+  height: 1px; 
+}
+
+%tab-avaliacaogestor {
+  position: absolute;
+  bottom: 0px;
+  left: 178.36px;
+  width: calc(840px - 165.14px - 178.36px); // mesma lógica da %tab-autoavaliacao, subtraindo a terceira tab também(178.36)
+  height: 1px; 
 }
 
 %form-input {

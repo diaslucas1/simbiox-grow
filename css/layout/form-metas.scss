@@ -27,10 +27,22 @@
       color: $color-eighth !important;
     }
 
-    .active::after {
+    #meta1-tab.active::after {
       content: "";
       background-color: $color-eighth;
       @extend %tab-meta;
+    }
+
+    #autoavalia1-tab.active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-autoavaliacao;
+    }
+
+    #avaliagest1-tab.active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-avaliacaogestor;
     }
   }
 
@@ -61,10 +73,22 @@
       color: $color-twelfth !important;
     }
 
-    .active::after {
+    #meta2-tab.active::after {
       content: "";
       background-color: $color-twelfth;
       @extend %tab-meta
+    }
+
+    #autoavalia2-tab.active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-autoavaliacao;
+    }
+
+    #avaliagest2-tab.active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-avaliacaogestor;
     }
   }
 
@@ -95,10 +119,22 @@
       color: $color-fourteenth !important;
     }
 
-    .active::after {
+    #meta3-tab.active::after {
       content: "";
       background-color: $color-fourteenth;
       @extend %tab-meta
+    }
+
+    #autoavalia3-tab.active::after {
+      content: "";
+      background-color: $color-fourteenth;
+      @extend %tab-autoavaliacao;
+    }
+
+    #avaliagest3-tab.active::after {
+      content: "";
+      background-color: $color-fourteenth;
+      @extend %tab-avaliacaogestor;
     }
   }
 
@@ -129,10 +165,22 @@
       color: $color-eighth !important;
     }
 
-    .active::after {
+    #meta4-tab.active::after {
       content: "";
       background-color: $color-eighth;
       @extend %tab-meta
+    }
+
+    #autoavalia4-tab.active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-autoavaliacao;
+    }
+
+    #avaliagest4-tab.active::after {
+      content: "";
+      background-color: $color-eighth;
+      @extend %tab-avaliacaogestor;
     }
   }
 
@@ -163,10 +211,22 @@
       color: $color-twelfth !important;
     }
 
-    .active::after {
+    #meta5-tab.active::after {
       content: "";
       background-color: $color-twelfth;
       @extend %tab-meta
+    }
+
+    #autoavalia5-tab.active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-autoavaliacao;
+    }
+
+    #avaliagest5-tab.active::after {
+      content: "";
+      background-color: $color-twelfth;
+      @extend %tab-avaliacaogestor;
     }
   }
 
