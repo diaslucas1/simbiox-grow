@@ -24,17 +24,14 @@ function selectOptionsId(selectId, arrayOptions) {
 // ou pela classe
 function selectOptionsClass(selectClass, arrayOptions) {
   let selects = document.querySelectorAll("." + selectClass);
-  console.log(selects)
 
   for (let i = 0; i < arrayOptions.length; i++) {
     
     selects.forEach(select => {
       let option = document.createElement("option");
       option.value = arrayOptions[i];
-      option.text = arrayOptions[i];
-      console.log(option)
+      option.text = arrayOptions[i];    
       select.appendChild(option);
-      console.log(select)
     });   
   }
 }

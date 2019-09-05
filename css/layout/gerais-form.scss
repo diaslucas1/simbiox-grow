@@ -27,6 +27,11 @@ textarea {
   resize: none;
 }
 
+.legenda-nota {
+  @extend %form-font;
+  color: $color-nineteenth;
+}
+
 /* apenas para marcação do logo */
 .logo {
   width: 255px;

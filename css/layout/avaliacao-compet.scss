@@ -5,7 +5,7 @@
   h4 {
     @include titulo-principal($color-first, 13px);
   }
-  p {
+  .texto-compet {
     @extend %form-title;
     font-size: 13px;
     line-height: normal;
@@ -14,12 +14,8 @@
     @extend %form-font;
     color: $color-first;
   }
-  .legenda-nota {
-    @extend %form-font;
-    color: $color-nineteenth;
-  }
   .border-compet {
-    border-bottom: 1px solid #006892;
+    border-bottom: 1px solid $color-first;
   }
   .select-autoavalia, .select-avaliagest {
     @extend %form-font;
