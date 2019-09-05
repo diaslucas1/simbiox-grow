@@ -1,0 +1,13 @@
+.feedback-colaborador {
+  .question {
+    @extend %form-font;
+    color: $color-first;
+  }
+  input {
+    margin-left: 15px;
+  }
+  label {
+    @extend %form-title;
+    font-size: 13px;
+  }
+}

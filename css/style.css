@@ -10,12 +10,12 @@
   color: #000000;
   height: 40px; }
 
-.subtitle-main, .busca-home, .busca-home::placeholder, .container-footer p, .required-subtitle, .dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3, .avalia-compet .texto-compet, .feedback-gestor p {
+.subtitle-main, .busca-home, .busca-home::placeholder, .container-footer p, .required-subtitle, .dados-pessoais h3, .nav-tabs .nav-item a, .meta1 h3, .meta2 h3, .meta3 h3, .meta4 h3, .meta5 h3, .avalia-compet .texto-compet, .feedback-gestor p, .feedback-colaborador label {
   font-family: 'Arial Regular', Arial;
   font-size: 16px;
   font-weight: 400; }
 
-.dados-pessoais label, .dados-pessoais .form-control, .dados-pessoais .form-control::placeholder, .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label, .meta1 .form-control, .meta1 .form-control::placeholder, .meta2 .form-control, .meta2 .form-control::placeholder, .meta3 .form-control, .meta3 .form-control::placeholder, .meta4 .form-control, .meta4 .form-control::placeholder, .meta5 .form-control, .meta5 .form-control::placeholder, .peso-total label, .peso-total .form-control, .peso-total .form-control::placeholder, .legenda-nota, .avalia-compet label, .avalia-compet .select-autoavalia, .avalia-compet .select-avaliagest, .avalia-compet textarea, .avaliacao-final label, .avaliacao-final .form-control, .avaliacao-final .form-control::placeholder, .feedback-gestor label, .feedback-gestor .form-control, .feedback-gestor .form-control::placeholder, .feedback-gestor textarea {
+.dados-pessoais label, .dados-pessoais .form-control, .dados-pessoais .form-control::placeholder, .meta1 label, .meta2 label, .meta3 label, .meta4 label, .meta5 label, .meta6 label, .meta1 .form-control, .meta1 .form-control::placeholder, .meta2 .form-control, .meta2 .form-control::placeholder, .meta3 .form-control, .meta3 .form-control::placeholder, .meta4 .form-control, .meta4 .form-control::placeholder, .meta5 .form-control, .meta5 .form-control::placeholder, .peso-total label, .peso-total .form-control, .peso-total .form-control::placeholder, .legenda-nota, .avalia-compet label, .avalia-compet .select-autoavalia, .avalia-compet .select-avaliagest, .avalia-compet textarea, .avaliacao-final label, .avaliacao-final .form-control, .avaliacao-final .form-control::placeholder, .feedback-gestor label, .feedback-gestor .form-control, .feedback-gestor .form-control::placeholder, .feedback-gestor textarea, .feedback-colaborador .question {
   font-family: 'Verdana Regular', Verdana, serif;
   font-size: 14px;
   font-weight: 400; }
@@ -301,5 +301,12 @@ textarea {
   border-color: #006892;
   border-radius: 0.3em;
   margin-left: 15px; }
+
+.feedback-colaborador .question {
+  color: #006892; }
+.feedback-colaborador input {
+  margin-left: 15px; }
+.feedback-colaborador label {
+  font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */
