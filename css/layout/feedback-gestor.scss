@@ -1,4 +1,4 @@
-.avaliacao-final {
+.feedback-gestor {
   label {
     @extend %form-font;
     color: $color-first;
@@ -10,6 +10,15 @@
     border-radius: 0.3em;
   }
   input {
+    margin-left: 15px;
+  }
+  p {
+    @extend %form-title;
+    font-size: 14px;
+    color: $color-second;
+  }
+  textarea {
+    @include text-area($color-first);
     margin-left: 15px;
   }
 }

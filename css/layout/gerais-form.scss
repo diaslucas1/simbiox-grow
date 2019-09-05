@@ -5,6 +5,7 @@
 .titulo-quadro {
   @include titulo-principal($color-first, 16px);
   @include titulo-form($color-first, 2px);
+  padding-bottom: 10px;
 }
 
 .required-field {

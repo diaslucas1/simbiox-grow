@@ -14,6 +14,12 @@
   font-weight: 700;
 }
 
+@mixin text-area($color) {
+  @include cor-borda($color);
+  @extend %form-font;
+  border-radius: 0.3em;
+}
+
 %tab-meta {
   position: absolute;
   bottom: 0px;
