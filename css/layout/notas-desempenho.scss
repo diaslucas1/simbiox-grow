@@ -1,0 +1,15 @@
+.accordion {
+  h1 {
+    @include titulo-principal($color-first, 28px);
+  }
+  h2 {
+    @include titulo-principal($color-first, 14px);
+    text-transform: uppercase;
+  }
+  p {
+    @extend %form-title;
+    font-size: 14px;
+    color: $color-first;
+    margin-left: 23px;
+  }
+}

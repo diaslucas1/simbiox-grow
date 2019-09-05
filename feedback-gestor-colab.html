@@ -39,7 +39,37 @@
     <div class="dados-pessoais mt-5"></div>
     <!-- END FORM DADOS PESSOAIS -->
 
-    <p class="text-center text-smart mt-4">SMART: Todas as metas devem ser Específicas, Mensuráveis, Possíveis de Alcançar, Relevantes e Ter Prazo<br>Estabeleça de 3 a 5 metas para o ano. A soma dos pesos deve ser igual a 100%</p>
+    <p class="text-center text-smart mt-4 mb-0">SMART: Todas as metas devem ser Específicas, Mensuráveis, Possíveis de Alcançar, Relevantes e Ter Prazo<br>Estabeleça de 3 a 5 metas para o ano. A soma dos pesos deve ser igual a 100%</p>
+
+    <div class="accordion">
+      <div class="float-right">
+        <button type="button" class="btn btn-collapse" data-toggle="collapse" data-target="#notasCollapse"><img src="https://d1icd6shlvmxi6.cloudfront.net/gsc/PFA9HZ/8f/8c/8e/8f8c8e5f001345468db8c04cf70184d0/images/autoavaliacao-avaliacaogestor/u751.png?token=551e490f53612f10e6cba210ddd373f552b7a9dc007ff5a3c5035cb2c058b339" alt="ícone nota" class="mr-2">Entenda as notas</button>
+      </div>
+
+      <div id="notasCollapse" class="collapse">
+          <div class="card card-body">
+            <h1 class="mb-3">Notas de avaliação de desempenho</h1>
+
+            <h2 class="mb-0">1 – ABAIXO DAS EXPECTATIVAS</h2>
+            <p>Desempenho muito abaixo em relação as metas e os comportamentos</p>
+            <p>Não demonstra habilidades, conhecimentos ou comportamentos necessários para a função</p>
+
+            <h2 class="mb-0">2 – NECESSIDADE DE MELHORA</h2>
+            <p>Baixo desempenho em relação as metas e os comportamentos</p>
+            <p>Não utiliza as habilidades, conhecimentos ou comportamentos necessários para a função</p>
+
+            <h2 class="mb-0">3 – DENTRO DAS EXPECTATIVAS</h2>
+            <p>Atinge os resultados esperados em relação as metas</p>
+            <p>Demonstra os comportamentos alinhados aos nossos Princípios e Crenças</p>
+
+            <h2 class="mb-0">4 – EXCEDE ÀS EXPECTATIVAS</h2>
+            <p>Entrega acima do esperado e com consistência</p>
+            <p>Resultados agregam valor a área</p>
+            <p>Destaca-se em demonstrar os comportamentos alinhados aos nossos Princípios e Crenças</p>
+          </div>
+      </div>
+    </div>
+
 
     <!-- FORMS METAS -->
     <div class="metas"></div>
@@ -70,8 +100,8 @@
     <!-- END FEEDBACK COLABORADOR -->
 
     <div class="mt-4 text-right">
-      <button type="submit" class="btn mr-3 button-enviar">Salvar e Enviar</button>
-      <button type="button" class="btn">Fechar</button>
+      <button type="submit" class="btn btn-form mr-3 button-enviar">Salvar e Enviar</button>
+      <button type="button" class="btn btn-form">Fechar</button>
     </div>
 
   </form>
@@ -85,6 +115,7 @@
     <script src="js/formMetas.js"></script>
     <script src="js/formMetasCompleto.js"></script>
     <script src="js/avaliacaoCompet.js"></script>
+    <script src="js/legendasNotas.js"></script>
     <script src="js/avaliacaoFinal.js"></script>
     <script src="js/feedbackGestor.js"></script>
     <script src="js/feedbackColaborador.js"></script>

@@ -109,3 +109,5 @@ avaliacaoCompetencias.innerHTML = `
     </div>
   </div>
 `
+
+

@@ -20,6 +20,23 @@
   border-radius: 0.3em;
 }
 
+%form-input {
+  color: $color-nineteenth;
+  height: 40px;
+}
+
+%form-title {
+  font-family: 'Arial Regular', Arial;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+%form-font {
+  font-family: 'Verdana Regular', Verdana, serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 %tab-meta {
   position: absolute;
   bottom: 0px;
@@ -42,21 +59,4 @@
   left: 178.36px;
   width: calc(840px - 165.14px - 178.36px); // mesma lógica da %tab-autoavaliacao, subtraindo a terceira tab também(178.36)
   height: 1px; 
-}
-
-%form-input {
-  color: $color-nineteenth;
-  height: 40px;
-}
-
-%form-title {
-  font-family: 'Arial Regular', Arial;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-%form-font {
-  font-family: 'Verdana Regular', Verdana, serif;
-  font-size: 14px;
-  font-weight: 400;
 }

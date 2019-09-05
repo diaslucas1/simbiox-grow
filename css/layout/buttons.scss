@@ -1,0 +1,26 @@
+.btn-form {
+  width: 150px;
+  height: 40px;
+  @include titulo-principal($color-sixth, 14px);
+  background-color: $color-zero;
+
+  &:hover {
+  background-color: $color-seventh;
+  color: $color-sixth;
+  }
+}
+
+.btn-collapse {
+  width: 200px;
+  height: 40px;
+  padding-left: 0px;
+  @extend %form-title;
+  color: $color-first;
+  background-color: $color-sixth;
+  border-color: $color-first;
+
+  &:hover {
+    background-color: $color-seventh;
+    color: $color-sixth;
+  }
+}
