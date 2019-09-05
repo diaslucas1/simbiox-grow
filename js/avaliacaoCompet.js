@@ -12,12 +12,12 @@ avaliacaoCompetencias.innerHTML = `
         <div class="row col-12">
           <label class="col-12 p-0" for="auto-avaliacao1">Auto Avaliação <span class="required-field">*</span></label>
           <select name="auto-avaliacao1" id="auto-avaliacao1" class="form-control col-3 select-autoavalia"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-auto1"></p>
         </div>
         <div class="row col-12 mt-3">
           <label class="col-12 p-0" for="avaliacao-gestor1">Avaliação Gestor <span class="required-field">*</span></label>
           <select name="avaliacao-gestor1" id="avaliacao-gestor1" class="form-control col-3 select-avaliagest"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-gest1"></p>
         </div>
       </div>
       <div class="form-group col-12"><div class="border-compet"></div></div>
@@ -32,12 +32,12 @@ avaliacaoCompetencias.innerHTML = `
         <div class="row col-12">
           <label class="col-12 p-0" for="auto-avaliacao2">Auto Avaliação <span class="required-field">*</span></label>
           <select name="auto-avaliacao2" id="auto-avaliacao2" class="form-control col-3 select-autoavalia"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-auto2"></p>
         </div>
         <div class="row col-12 mt-3">
           <label class="col-12 p-0" for="avaliacao-gestor2">Avaliação Gestor <span class="required-field">*</span></label>
           <select name="avaliacao-gestor2" id="avaliacao-gestor2" class="form-control col-3 select-avaliagest"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-gest2"></p>
         </div>
       </div>
       <div class="form-group col-12"><div class="border-compet"></div></div>
@@ -51,12 +51,12 @@ avaliacaoCompetencias.innerHTML = `
         <div class="row col-12">
           <label class="col-12 p-0" for="auto-avaliacao3">Auto Avaliação <span class="required-field">*</span></label>
           <select name="auto-avaliacao3" id="auto-avaliacao3" class="form-control col-3 select-autoavalia"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-auto3"></p>
         </div>
         <div class="row col-12 mt-3">
           <label class="col-12 p-0" for="avaliacao-gestor3">Avaliação Gestor <span class="required-field">*</span></label>
           <select name="avaliacao-gestor3" id="avaliacao-gestor3" class="form-control col-3 select-avaliagest"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-gest3"></p>
         </div>
       </div>
       <div class="form-group col-12"><div class="border-compet"></div></div>
@@ -70,12 +70,12 @@ avaliacaoCompetencias.innerHTML = `
         <div class="row col-12">
           <label class="col-12 p-0" for="auto-avaliacao4">Auto Avaliação <span class="required-field">*</span></label>
           <select name="auto-avaliacao4" id="auto-avaliacao4" class="form-control col-3 select-autoavalia"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-auto4"></p>
         </div>
         <div class="row col-12 mt-3">
           <label class="col-12 p-0" for="avaliacao-gestor4">Avaliação Gestor <span class="required-field">*</span></label>
           <select name="avaliacao-gestor4" id="avaliacao-gestor4" class="form-control col-3 select-avaliagest"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-gest4"></p>
         </div>
       </div>
       <div class="form-group col-12"><div class="border-compet"></div></div>
@@ -89,12 +89,12 @@ avaliacaoCompetencias.innerHTML = `
         <div class="row col-12">
           <label class="col-12 p-0" for="auto-avaliacao5">Auto Avaliação <span class="required-field">*</span></label>
           <select name="auto-avaliacao5" id="auto-avaliacao5" class="form-control col-3 select-autoavalia"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-auto5"></p>
         </div>
         <div class="row col-12 mt-3">
           <label class="col-12 p-0" for="avaliacao-gestor5">Avaliação Gestor <span class="required-field">*</span></label>
           <select name="avaliacao-gestor5" id="avaliacao-gestor5" class="form-control col-3 select-avaliagest"></select>
-          <p class="legenda-nota col-9 pl-4 mt-2">EXCEDE ÀS EXPECTATIVAS</p>
+          <p class="legenda-nota col-9 pl-4 mt-2 legenda-gest5"></p>
         </div>
       </div>
   </div>
