@@ -1,0 +1,33 @@
+.avalia-compet {
+  h3 {
+    padding-bottom: 10px;
+  }
+  h4 {
+    @include titulo-principal($color-first, 13px);
+  }
+  p {
+    @extend %form-title;
+    font-size: 13px;
+    line-height: normal;
+  }
+  label {
+    @extend %form-font;
+    color: $color-first;
+  }
+  .legenda-nota {
+    @extend %form-font;
+    color: $color-nineteenth;
+  }
+  .border-compet {
+    border-bottom: 1px solid #006892;
+  }
+  .select-autoavalia, .select-avaliagest {
+    @extend %form-font;
+    color: $color-nineteenth;
+  }
+  textarea {
+    @include cor-borda($color-first);
+    @extend %form-font;
+    border-radius: 0.3em;
+  }
+}

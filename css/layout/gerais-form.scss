@@ -1,5 +1,10 @@
 .main-title {
-  @include titulo-principal($color-first);
+  @include titulo-principal($color-first, 28px);
+}
+
+.titulo-quadro {
+  @include titulo-principal($color-first, 16px);
+  @include titulo-form($color-first, 2px);
 }
 
 .required-field {
@@ -16,6 +21,10 @@
   font-family: 'Arial Regular', Arial;
   font-size: 14px;
   font-weight: 400;
+}
+
+textarea {
+  resize: none;
 }
 
 /* apenas para marcação do logo */

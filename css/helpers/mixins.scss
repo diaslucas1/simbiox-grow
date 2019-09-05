@@ -7,10 +7,10 @@
   border-color: $cor;
 }
 
-@mixin titulo-principal($cor) {
+@mixin titulo-principal($cor, $tamanho-fonte) {
   color: $cor;
   font-family: 'Arial Bold', Arial;
-  font-size: 28px;
+  font-size: $tamanho-fonte;
   font-weight: 700;
 }
 
