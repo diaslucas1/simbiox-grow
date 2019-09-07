@@ -25,7 +25,7 @@ function criarAutoAvaliacao(numeroMetas) {
       </div>
 
       <div class="col-12 text-right">
-        <button type="button" class="btn col-12 pl-2 pr-2">Registrar Avaliação</button>
+        <button type="button" class="btn btn-form col-12 pl-2 pr-2">Registrar Avaliação</button>
       </div>
     </div>
     `
@@ -52,7 +52,7 @@ function criarAvaliacaoGestor(numeroMetas) {
       </div>
 
       <div class="col-12 text-right">
-        <button type="button" class="btn col-12 pl-2 pr-2">Registrar Avaliação</button>
+        <button type="button" class="btn btn-form col-12 pl-2 pr-2">Registrar Avaliação</button>
       </div>
     </div>
     `
